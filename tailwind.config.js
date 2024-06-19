@@ -24,13 +24,15 @@ export default {
     extend: {
       backgroundImage: {
         'backImg': "url('./assets/bgImg.jpg')", // Ensure the correct path to your image
+        'aboutImg':"url('./assets/ex.jpg')"
       },
 
       colors: {
-        primary: '#0a0a0a',
+        primary: '#808080',
         accent: '#B809C3',
-        grayMiddle: '#808080', 
-        white: '#FFFFFF',     
+        grayMiddle: '#0a0a0a', 
+        white: '#FFFFFF',
+        green:'[#009e66]'     
       },
     },
   },

@@ -1,20 +1,20 @@
 // const Home = () => {
 //     return (
-    
+
 //         <div className="container mx-auto">
 //           <p>Home</p>
 //         </div>
-   
+
 //     );
 //   };
-  
-//   export default Home;
 
+//   export default Home;
+// rgb(75 148 13) ssss text-blue-600
 
 //images
 import Image from "../assets/example.png";
 import { TypeAnimation } from "react-type-animation";
- 
+
 //motion
 import { motion } from "framer-motion";
 //variants
@@ -49,12 +49,19 @@ const Banner = () => {
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
             >
               <span className="text-white mr-4">I am a </span>
-              <TypeAnimation
+              {/* <TypeAnimation
                 sequence={["Developer", 2000]}
                 speed={1}
-                className="text-teal-600"
+                className="text-blue-600"
                 wrapper="span"
                 repeat={Infinity}
+              /> */}
+              <TypeAnimation
+                sequence={["Jr", 2000, "Web", 2000, "Developer", 2000]}
+                speed={15}
+                className="text-blue-600"
+                wrapper="span"
+                repeat={0}
               />
             </motion.div>
             <motion.p
@@ -62,14 +69,14 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0 text-sm sm:text-[18px] leading-6 font-semibold"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 text-sm sm:text-[18px] leading-6 font-semibold font-primary text-black"
             >
               Hello, my name is Okan, and I am 36 years old. After years, I
               finally achieved my dream, and since 2022, I have been programming
               and writing code on my own. I know I am still at the beginning of
               the road, and every day I add something new to myself in terms of
-              programming.On this page, you can find
-              information about me. Have a nice surf!
+              programming.On this page, you can find information about me. Have
+              a nice surf!
             </motion.p>
 
             <motion.div
@@ -79,7 +86,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button  className="shadow-md  bg-black shadow-[#009e66] hover:bg-zinc-700 hover:scale-100 hover:shadow-lg duration-300  text-white font-bold py-2 px-4 mt-3 rounded-full ">
+              <button className="shadow-md  bg-black shadow-[#009e66] hover:bg-zinc-700 hover:scale-100 hover:shadow-lg duration-300  text-white font-bold py-2 px-4 mt-3 rounded-full ">
                 <a href={resume} download="resume">
                   {" "}
                   Download CV
