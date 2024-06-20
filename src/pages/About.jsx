@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 //variant
 import { fadeIn } from "../variants";
 
-
+import aboutImg from  "../assets/bg22.gif"
 const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -19,17 +19,52 @@ const About = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0">
           {/* image */}
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("right", 0.3)}
-            whileHover={{ scale: 1.1 }}
+            // whileHover={{ scale: 1.1 }}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
+            
             className="flex-1 bg-aboutImg bg-contain bg-no-repeat h-[640px]
            bg-center rounded-full transition-all duration-300"
-          ></motion.div>
+          ></motion.div> */}
 
-          {/* text */}
+        <div className="flex flex-1">
+
+
+
+
+
+ <img
+                className="-translate-y-4 lg:hover:scale-125  transition-all duration-500  rounded-xl lg:hover:rounded-full h-[150px] w-[250px] lg:h-[350px] lg:w-[450px]"
+                src={aboutImg}
+                alt=""
+                //  style={{ width: '400px', height: '300px' }}
+              /> 
+
+      </div>
+
+
+
+{/* <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 ">
+              
+              <img
+                className="group-hover:scale-125 transition-all duration-500 h-60 w-80"
+                src={ImgWeath}
+                alt=""
+              />
+</div>
+
+ */}
+
+
+
+
+
+
+
+  {/* text */}
           <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"
