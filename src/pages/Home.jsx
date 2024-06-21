@@ -29,7 +29,7 @@ const Banner = () => {
       id="home"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+        <div className="flex flex-col items-center gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
           <div className="flex-1 text-center font-secondary lg:text-left">
             <motion.h1
@@ -96,7 +96,7 @@ const Banner = () => {
             {/* socials */}
           </div>
           {/* IMAGE */}
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
@@ -105,6 +105,19 @@ const Banner = () => {
           >
             <img
               className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden"
+              src={Image}
+              alt="Okanphoto"
+            />
+          </motion.div> */}
+          <motion.div
+            variants={fadeIn("down", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="max-w-[320px] lg:max-w[482px]"
+          >
+            <img
+              className="w-44 h-44 rounded-lg md:w-96 md:h-96 md:rounded-full overflow-hidden"
               src={Image}
               alt="Okanphoto"
             />
