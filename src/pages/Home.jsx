@@ -59,7 +59,7 @@ const Banner = () => {
               <TypeAnimation
                 sequence={["Jr", 2000, "Web", 2000, "Developer", 2000]}
                 speed={15}
-                className="text-blue-600"
+                className="text-orange-700"
                 wrapper="span"
                 repeat={0}
               />
@@ -69,7 +69,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0 text-sm sm:text-[18px] leading-6 font-semibold font-primary text-black"
+              className="mb-8 max-w-lg mx-auto lg:mx-0 text-sm sm:text-[18px] leading-6 font-semibold font-primary text-black  bg-orange-300 p-4 m-4 "
             >
               Hello, my name is Okan, and I am 36 years old. After years, I
               finally achieved my dream, and since 2022, I have been programming

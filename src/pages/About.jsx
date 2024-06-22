@@ -74,7 +74,7 @@ const About = () => {
           >
             <h1  className="text-[45px] font-bold leading-[0.8] lg:text-[55px] mb-4">About me</h1>
             <span  className="mb-6 text-[25px] lg:text-[35px] font-secondary font-bold text-gray-950">I'am a Freelance Web Developer.</span>
-            <p className="mb-6 text-sm sm:text-[18px] font-primary">
+            <p className="mb-6 text-sm sm:text-[18px] font-primary  bg-orange-300 p-4  ">
               Starting my software development journey in 2022, I've quickly
               mastered key web technologies like HTML, CSS, Tailwind,
               JavaScript, and React, while also gaining self-taught expertise in

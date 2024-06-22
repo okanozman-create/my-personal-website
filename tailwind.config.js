@@ -31,8 +31,9 @@ export default {
         primary: '#808080',
         accent: '#B809C3',
         grayMiddle: '#0a0a0a', 
-        white: '#FFFFFF',
-        green:'[#009e66]'     
+        borderOr:'#F56539' ,
+
+         
       },
     },
   },
