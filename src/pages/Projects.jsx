@@ -4,7 +4,7 @@ import ImgWeath from "../assets/ImgWeather.jpg";
 
 const Projects = () => {
   return (
-    <section className="" id="work">
+    <section  >
       {/* <div className="container mx-auto"> */}
 
       <h1 className="text-[45px] font-bold leading-[0.8] lg:text-[55px] m text-center mb-10 lg:mb-20">

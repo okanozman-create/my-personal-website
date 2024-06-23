@@ -1,10 +1,10 @@
-// src/App.jsx
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import Navbar from "./components/Navbar"; // assuming you have a Navbar component
+import Navbar from "./components/Navbar"; 
 import NotFound from "./components/NotFound";
 import Projects from "./pages/Projects";
 
@@ -12,7 +12,7 @@ import Projects from "./pages/Projects";
 
 const App = () => {
   return (
-    <div className="bg-gray-950 bg-backImg bg-cover bg-no-repeat bg-top overflow-hidden min-h-screen w-full">
+    <div className="bg-gray-950 bg-backImg bg-cover bg-no-repeat bg-top overflow-hidden min-h-screen">
       <BrowserRouter>
         <Navbar />
         <Routes>

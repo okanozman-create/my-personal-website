@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .btn {
   background: linear-gradient(
     92.23deg,
@@ -43,10 +41,8 @@
 }
 
 @layer base {
- 
-  
   .btn {
-    @apply rounded-full font-primary text-white font-medium;
+    @apply rounded-full font-primary font-medium text-white;
   }
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
@@ -58,10 +54,13 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r from-[#42A6E3] to-[#FF56F6] bg-clip-text font-primary font-bold text-transparent hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .section {
     /* @apply py-8 lg:py-24 lg:h-screen flex items-center; */
-    @apply py-8 lg:py-24 h-screen flex items-center;
+    @apply flex h-screen items-center py-8 lg:py-24;
+  }
+  .anmBorder {
+    @apply after:mt-1 after:block after:h-1 after:w-full after:origin-left after:scale-x-0 after:bg-[#009e66] after:transition-transform after:delay-200 after:ease-linear after:content-['']  hover:after:scale-x-100;
   }
 }

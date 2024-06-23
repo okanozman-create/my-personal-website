@@ -1,43 +1,34 @@
-// const Home = () => {
-//     return (
-
-//         <div className="container mx-auto">
-//           <p>Home</p>
-//         </div>
-
-//     );
-//   };
-
-//   export default Home;
-// rgb(75 148 13) ssss text-blue-600
-
-//images
 import Image from "../assets/example.png";
 import { TypeAnimation } from "react-type-animation";
-
-//motion
 import { motion } from "framer-motion";
-//variants
 import { fadeIn } from "../variants";
-
 import resume from "../assets/okanozmancv-en.pdf";
 
-const Banner = () => {
+const Home = () => {
+  const handleDownload = () => {
+    const confirmed = window.confirm("Do you want to download the resume?");
+    if (confirmed) {
+      const link = document.createElement("a");
+      link.href = resume;
+      link.download = "resume.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  };
+
   return (
-    <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
-      id="home"
-    >
+    <section className="flex min-h-[85vh] items-center lg:min-h-[78vh]">
       <div className="container mx-auto">
         <div className="flex flex-col items-center gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
-          <div className="flex-1 text-center font-secondary lg:text-left">
+          <div className="flex-1 text-center lg:text-left">
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-[55px] font-bold leading-[0.8] lg:text-[80px] mb-4"
+              className="mb-4 font-secondary text-[55px] font-bold leading-[0.8] lg:text-[80px]"
             >
               OKAN <span>OZMAN</span>
             </motion.h1>
@@ -46,16 +37,10 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
+              className="mb-6 font-secondary text-[36px] font-semibold uppercase leading-[1] lg:text-[60px]"
             >
-              <span className="text-white mr-4">I am a </span>
-              {/* <TypeAnimation
-                sequence={["Developer", 2000]}
-                speed={1}
-                className="text-blue-600"
-                wrapper="span"
-                repeat={Infinity}
-              /> */}
+              <span className="mr-4 text-white">I am a </span>
+
               <TypeAnimation
                 sequence={["Jr", 2000, "Web", 2000, "Developer", 2000]}
                 speed={15}
@@ -69,14 +54,13 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0 text-sm sm:text-[18px] leading-6 font-semibold font-primary text-black  bg-orange-300 p-4 m-4 "
+              className="mx-auto mb-8 mt-4 max-w-lg bg-orange-300 p-4 font-familyRob text-[16px] font-semibold leading-6 text-black sm:text-[18px] lg:mx-0"
             >
-              Hello, my name is Okan, and I am 36 years old. After years, I
-              finally achieved my dream, and since 2022, I have been programming
-              and writing code on my own. I know I am still at the beginning of
-              the road, and every day I add something new to myself in terms of
-              programming.On this page, you can find information about me. Have
-              a nice surf!
+              Hello, my name is Okan. After years, I finally achieved my dream,
+              and since 2022, I have been programming and writing code on my
+              own. I know I am still at the beginning of the road, and every day
+              I add something new to myself in terms of programming.On this
+              page, you can find information about me. Have a nice surf!
             </motion.p>
 
             <motion.div
@@ -84,40 +68,26 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
+              className="mx-auto mb-12 flex max-w-max items-center gap-x-6 lg:mx-0"
             >
-              <button className="shadow-md  bg-black shadow-[#009e66] hover:bg-zinc-700 hover:scale-100 hover:shadow-lg duration-300  text-white font-bold py-2 px-4 mt-3 rounded-full ">
-                <a href={resume} download="resume">
-                  {" "}
-                  Download CV
-                </a>
+              <button
+                className="mt-3 rounded-full bg-black px-4 py-2 font-bold text-white shadow-md shadow-[#009e66] duration-300 hover:scale-100 hover:bg-zinc-700 hover:shadow-lg"
+                onClick={handleDownload}
+              >
+                Download CV
               </button>
             </motion.div>
-            {/* socials */}
           </div>
-          {/* IMAGE */}
-          {/* <motion.div
-            variants={fadeIn("down", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w[482px]"
-          >
-            <img
-              className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden"
-              src={Image}
-              alt="Okanphoto"
-            />
-          </motion.div> */}
+
           <motion.div
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="max-w-[320px] lg:max-w[482px]"
+            className="lg:max-w[482px] hidden max-w-[320px] lg:block"
           >
             <img
-              className="w-44 h-44 rounded-lg md:w-96 md:h-96 md:rounded-full overflow-hidden"
+              className="h-44 w-44 overflow-hidden rounded-lg md:h-96 md:w-96 md:rounded-full"
               src={Image}
               alt="Okanphoto"
             />
@@ -128,4 +98,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Home;

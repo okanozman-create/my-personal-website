@@ -9,6 +9,7 @@ export default {
       primary: 'Open Sans',
       secondary: 'Montserrat',
       tertiary: 'Merriweather',
+      familyRob: 'Roboto',
     },
     container: {
       padding: {
@@ -23,18 +24,14 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'backImg': "url('./assets/bgImg.jpg')", // Ensure the correct path to your image
+        'backImg': "url('./assets/bgImg.jpg')",
         'aboutImg':"url('./assets/ex.jpg')"
       },
 
       colors: {
-        primary: '#808080',
-        accent: '#B809C3',
-        grayMiddle: '#0a0a0a', 
-        borderOr:'#F56539' ,
-
-         
-      },
+      accent: '#B809C3',
+      borderOr:'#F56539' ,
+},
     },
   },
   plugins: [],
