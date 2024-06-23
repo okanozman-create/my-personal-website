@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import { motion } from "framer-motion";
+
 
 
 
@@ -9,9 +9,10 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav >
+      <nav className="w-full" >
+        
         <div className="p-4">
-        <ul className="flex gap-x-8 text-yellow-900 justify-center font-semibold p-4 font-secondary text-xl tracking-wider">
+        <ul className="flex flex-col items-center lg:flex-row  gap-y-1 lg:gap-x-8 text-yellow-900 lg:justify-center font-semibold  font-secondary text-sm lg:text-xl tracking-wider">
           <li>
             <Link to="/" className="anmBorder">Home</Link>
           </li>

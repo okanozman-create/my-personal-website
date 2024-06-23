@@ -3,32 +3,10 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import resume from "../assets/okanozmancv-en.pdf";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 const Home = () => {
 
-
-  useEffect(() => {
-    // Function to check the screen width and add/remove the no-animation class
-    const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        document.body.classList.add('no-animation');
-      } else {
-        document.body.classList.remove('no-animation');
-      }
-    };
-
-    // Initial check
-    handleResize();
-
-    // Event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Clean up event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
 
 
@@ -65,7 +43,7 @@ const Home = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 font-secondary text-[36px] font-semibold uppercase leading-[1] lg:text-[60px]"
+              className="mb-6 font-secondary text-[25px] font-semibold uppercase leading-[1] lg:text-[60px]"
             >
               <span className="mr-4 text-white">I am a </span>
 
@@ -82,7 +60,7 @@ const Home = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mx-auto mb-8 mt-4 max-w-lg bg-orange-300 p-4 font-primary text-[16px]  lg:leading-7 text-black sm:text-[18px] lg:mx-0"
+              className="mx-auto mb-8 mt-4 max-w-lg bg-orange-300 p-4 font-primary text-[12px]  lg:leading-7 text-black sm:text-[18px] lg:mx-0"
             >
               Hello, my name is Okan. After years, I finally achieved my dream,
               and since 2022, I have been programming and writing code on my

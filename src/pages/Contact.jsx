@@ -1,9 +1,10 @@
-// import React from 'react';
+
 
 const Contact = () => {
+
   return (
     <section className="py-8 lg:py-12">
-      <div className="m-4 flex items-center justify-between p-4 text-6xl">
+      <div className="m-4 flex items-center justify-between p-4 text-2xl  lg:text-6xl">
         <div>
           <i className="devicon-github-original-wordmark colored"></i>
         </div>
@@ -15,11 +16,11 @@ const Contact = () => {
       <div className="container mx-auto py-6">
         <div className="">
        
-        <h1 className="mb-20 lg:mb-15  mt-5 text-center text-[45px] font-bold leading-[0.8] lg:mb-20 lg:text-[55px]">
+        <h1 className="mb-10  lg:mb-20 lg:mb-15  mt-2 lg:mt-5 text-center text-[30px]  font-bold leading-[0.8] lg:text-[55px]">
             Contact details
           </h1>
 
-          <ul className="flex flex-col items-start gap-y-5 lg:flex-row  lg:items-center lg:justify-around ">
+          <ul className="flex flex-col items-start gap-y-8 lg:flex-row  lg:items-center lg:justify-around ">
          
             <li className="flex items-center justify-start gap-7">
               <div>
@@ -28,7 +29,7 @@ const Contact = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-10"
+                  className="size-7"
                 >
                   <path
                     fillRule="evenodd"
@@ -39,20 +40,20 @@ const Contact = () => {
               </div>
               <div>
                 {" "}
-                <span className="mb-4 text-2xl font-bold">
+                <span className="mb-4   text-sm lg:text-2xl font-bold">
                   Ankara, Turkey
                 </span>
               </div>
             </li>
 
             <li className="flex items-center justify-start gap-7 ">
-              <div>
+              <div  className="">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-10"
+                  className="size-7"
                 >
                   <path
                     fillRule="evenodd"
@@ -63,18 +64,18 @@ const Contact = () => {
               </div>
               <div>
                 {" "}
-                <span className="mb-4 text-2xl font-bold">okanozman88@gmail.com</span>
+                <span className="mb-4 text-sm lg:text-2xl font-bold">okanozman88@gmail.com</span>
               </div>
             </li>
 
-            <li className="flex items-center justify-center gap-7 ">
+            <li className="flex items-center justify-center ml-1 lg:ml-0 gap-7 ">
               <div>
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-9"
+                  className="size-6"
                 >
                   <path
                     fillRule="evenodd"
@@ -85,7 +86,7 @@ const Contact = () => {
               </div>
               <div>
                 {" "}
-                <span className="mb-4 text-2xl font-bold">+90 5333381535</span>
+                <span className="mb-4 text-sm lg:text-2xl font-bold">+90 5333381535</span>
               </div>
             </li>
           </ul>

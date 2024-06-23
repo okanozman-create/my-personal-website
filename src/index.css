@@ -40,11 +40,8 @@
   border-radius: 100%;
 }
 
-/* In your CSS file or a <style> tag */
-.no-animation * {
-  animation: none !important;
-  transition: none !important;
-}
+
+
 
 
 @layer base {

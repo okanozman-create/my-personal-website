@@ -30,11 +30,12 @@ function Services() {
 
   return (
     <section className="flex h-screen flex-col items-center py-8 lg:py-12">
-      <h1 className="m mb-10 text-center text-[45px] font-bold leading-[0.8] lg:text-[55px] font-secondary">
-        SKILLS
+      <h1 className="m mb-10 text-center bg-gradient-to-r from-orange-500 text-[15px] font-extrabold leading-[0.8] lg:text-[20px] font-secondary  ">
+      01010011 01001011 01001001 01001100 01001100 01010011
+
       </h1>
       <div className="w-60">
-        <div className="mb-10 border-4 border-borderOr"></div>
+        <div className="mb-2  lg:mb-10 border-4 border-orange-500"></div>
       </div>
       <div className="container mx-auto">
         <div className="">
@@ -60,33 +61,33 @@ function Services() {
       <div className="">
         {isSmallScreen ? (
           <div className="flex flex-col items-center gap-y-8">
-            <h1 className="mb-10 mt-20 text-center text-[45px] font-bold leading-[0.8] lg:text-[55px]">
+            <h1 className="mb-3 lg:mb-10  mt-5 lg:mt-20 text-center text-[30px] font-bold leading-[0.8] lg:text-[55px]">
               Services I Provide
             </h1>
-            <ol className="list-inside list-decimal space-y-4 text-2xl font-semibold">
+            <ul className="space-y-4 text-2xl font-semibold">
               <li className="flex items-center space-x-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-orange-500 font-bold text-white">
                   1
                 </div>
-                <h3 className="ml-4 text-[22px]">
+                <h3 className="ml-4 text-[15px]">
                   Full Stack Deployment with AWS.
                 </h3>
               </li>
-              <li className="flex items-center space-x-2 text-[22px]">
+              <li className="flex items-center space-x-2 text-[15px]">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-orange-500 font-bold text-white">
                   2
                 </div>
                 <h3 className="ml-4">Creating Dynamic Web Pages with React.</h3>
               </li>
-              <li className="flex items-center space-x-2 text-[22px]">
+              <li className="flex items-center space-x-2 text-[15px]">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-orange-500 font-bold text-white">
                   3
                 </div>
-                <h3 className="ml-4">
+                <h3 className="ml-4 text-[15px]">
                   Junior-Level Web Development Debugging.
                 </h3>
               </li>
-            </ol>
+            </ul>
           </div>
         ) : (
           <div className="mt-10 lg:block">

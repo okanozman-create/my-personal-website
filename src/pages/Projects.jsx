@@ -131,7 +131,7 @@ const Projects = () => {
                 className="font-secondary text-[18px] lg:text-[27px] font-bold text-orange-700   cursor-grab   after:mt-1 after:content-[''] after:block after:h-1 after:w-full after:bg-[#009e66] after:scale-x-0 after:origin-left after:transition-transform after:delay-200 after:ease-linear hover:after:scale-x-100"
                 onClick={() =>
                   (window.location.href =
-                    "https://master.d73081eebwwdg.amplifyapp.com/")
+                    "https://www.okan-ozman.com/")
                 }
               >
                 My Personal <br /> Website
@@ -148,7 +148,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* </div> */}
+       
       </div>
     </section>
   );
