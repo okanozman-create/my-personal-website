@@ -1,6 +1,7 @@
 // import Img1 from "../assets/portfolio-img1.png";
 import ImgCont from "../assets/contactImg.jpg";
 import ImgWeath from "../assets/ImgWeather.jpg";
+import  ImgPort from  "../assets/imagePortf2.png"
 
 const Projects = () => {
   return (
@@ -12,8 +13,7 @@ const Projects = () => {
       </h1>
 
       <div className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:justify-evenly">
-        {/* <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"> 
-           <div className="flex flex-col gap-x-10 lg:flex-row "> */}
+    
 
         <div className="">
           {/* ımages */}
@@ -36,10 +36,7 @@ const Projects = () => {
             <div className="absolute -bottom-full left-20  group-hover:bottom-16 lg:group-hover:bottom-24 transition-all duration-500 z-50 ">
               <span className="text-gradient">Full-Stack Deployment</span>
             </div>
-            {/* title */}
-            {/* <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-              <span className="text-3xl text-white ">Weather App</span>
-            </div> */}
+          
           </div>
           <div>
             <div className="w-60 lg:w-80  text-black text-center ">
@@ -67,10 +64,7 @@ const Projects = () => {
 
           <div
             className="group relative overflow-hidden border-2 border-white/50 rounded-xl  h-40 w-60   lg:h-60 lg:w-80"
-            // onClick={() =>
-            //   (window.location.href =
-            //     "https://master.d73081eebwwdg.amplifyapp.com/")
-            // }
+          
           >
             {/* overlay */}
             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 "></div>
@@ -84,10 +78,7 @@ const Projects = () => {
             <div className="absolute -bottom-full left-20  group-hover:bottom-16 lg:group-hover:bottom-24   transition-all duration-500 z-50 ">
               <span className="text-gradient ">Full-Stack Deployment</span>
             </div>
-            {/* title */}
-            {/* <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-              <span className="text-3xl text-white ">Contact Form</span>
-            </div> */}
+      
           </div>
           <div className="w-60 lg:w-80  text-black text-center mt-2">
             <p className="font-primary font-bold text-base  bg-orange-300 p-4 rounded-b-lg">
@@ -116,29 +107,23 @@ const Projects = () => {
 
           <div
             className="group relative overflow-hidden border-2 border-white/50 rounded-xl  h-40 w-60   lg:h-60 lg:w-80"
-            // onClick={() =>
-            //   (window.location.href =
-            //     "#")
-            // }
+     
           >
-            {/* overlay */}
+        
             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 ">
-              {/* img */}
+            
               <img
                 className="group-hover:scale-125 transition-all duration-500 h-60 w-80"
-                src={ImgWeath}
+                src={ImgPort}
                 alt=""
               />
             </div>
 
-            {/* pretitile */}
+           
             <div className="absolute -bottom-full left-20  group-hover:bottom-16 lg:group-hover:bottom-24 transition-all duration-500 z-50 ">
               <span className="text-gradient">Full-Stack Deployment</span>
             </div>
-            {/* title */}
-            {/* <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-              <span className="text-2xl text-white ">My Personal WEBsite</span>
-            </div> */}
+            
           </div>
           <div className="w-60 lg:w-80  text-black text-center mt-2">
             <p className="font-primary font-bold text-base  bg-orange-300 p-4 rounded-b-lg ">

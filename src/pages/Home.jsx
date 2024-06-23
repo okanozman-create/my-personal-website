@@ -54,7 +54,7 @@ const Home = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mx-auto mb-8 mt-4 max-w-lg bg-orange-300 p-4 font-familyRob text-[16px] font-semibold leading-6 text-black sm:text-[18px] lg:mx-0"
+              className="mx-auto mb-8 mt-4 max-w-lg bg-orange-300 p-4 font-primary text-[16px]  lg:leading-7 text-black sm:text-[18px] lg:mx-0"
             >
               Hello, my name is Okan. After years, I finally achieved my dream,
               and since 2022, I have been programming and writing code on my
