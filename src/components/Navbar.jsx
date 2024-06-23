@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav >
         <div className="p-4">
         <ul className="flex gap-x-8 text-yellow-900 justify-center font-semibold p-4 font-secondary text-xl tracking-wider">
           <li>
