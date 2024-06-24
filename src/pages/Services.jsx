@@ -35,7 +35,7 @@ function Services() {
 
       </h1>
       <div className="w-60">
-        <div className="mb-2  lg:mb-10 border-4 border-orange-500"></div>
+      
       </div>
       <div className="container mx-auto">
         <div className="">
@@ -60,31 +60,31 @@ function Services() {
 
       <div className="">
         {isSmallScreen ? (
-          <div className="flex flex-col items-center gap-y-8">
-            <h1 className="mb-3 lg:mb-10  mt-5 lg:mt-20 text-center text-[30px] font-bold leading-[0.8] lg:text-[55px]">
+          <div className="flex flex-col items-center justify-center gap-y-8">
+            <h1 className="mb-3 lg:mb-10  mt-8 lg:mt-24 text-center text-[25px] font-bold leading-[0.8] lg:text-[55px]">
               Services I Provide
             </h1>
             <ul className="space-y-4 text-2xl font-semibold">
-              <li className="flex items-center space-x-2">
+              <li className="flex items-center space-x-2 text-[12px]">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-orange-500 font-bold text-white">
                   1
                 </div>
-                <h3 className="ml-4 text-[15px]">
+                <h3 className="ml-4 text-[12px]">
                   Full Stack Deployment with AWS.
                 </h3>
               </li>
-              <li className="flex items-center space-x-2 text-[15px]">
+              <li className="flex items-center space-x-2 text-[12px]">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-orange-500 font-bold text-white">
                   2
                 </div>
                 <h3 className="ml-4">Creating Dynamic Web Pages with React.</h3>
               </li>
-              <li className="flex items-center space-x-2 text-[15px]">
+              <li className="flex items-center space-x-2 text-[12px]">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-orange-500 font-bold text-white">
                   3
                 </div>
-                <h3 className="ml-4 text-[15px]">
-                  Junior-Level Web Development Debugging.
+                <h3 className="ml-4 text-[12px]">
+                Managing and Integrating Third-Party APIs.
                 </h3>
               </li>
             </ul>

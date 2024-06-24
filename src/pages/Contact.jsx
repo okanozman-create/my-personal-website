@@ -1,27 +1,31 @@
-
-
 const Contact = () => {
-
   return (
     <section className="py-8 lg:py-12">
-      <div className="m-4 flex items-center justify-between p-4 text-2xl  lg:text-6xl">
-        <div>
+      <div className="m-4 flex items-center justify-between p-4 text-2xl lg:text-6xl">
+        <a
+          href="https://github.com/okanozman-create"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="devicon-github-original-wordmark colored"></i>
-        </div>
-        <div>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/okan-ozman/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="devicon-linkedin-plain colored"></i>
-        </div>
+        </a>
       </div>
 
       <div className="container mx-auto py-6">
         <div className="">
-       
-        <h1 className="mb-5  lg:mb-20 lg:mb-15  mt-2 lg:mt-5 text-center text-[30px]  font-bold leading-[0.8] lg:text-[55px]">
+          <h1 className="lg:mb-15 mb-10 mt-2 text-center text-[30px] font-bold leading-[0.8] lg:mb-20 lg:mt-5 lg:text-[55px]">
             Contact details
           </h1>
 
-          <ul className="flex flex-col items-start gap-y-8 lg:flex-row  lg:items-center lg:justify-around ">
-         
+          <ul className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:justify-around">
             <li className="flex items-center justify-start gap-7">
               <div>
                 {" "}
@@ -40,14 +44,14 @@ const Contact = () => {
               </div>
               <div>
                 {" "}
-                <span className="mb-4   text-sm lg:text-2xl font-bold">
+                <span className="mb-4 text-sm font-bold lg:text-2xl">
                   Ankara, Turkey
                 </span>
               </div>
             </li>
 
-            <li className="flex items-center justify-start gap-7 ">
-              <div  className="">
+            <li className="flex items-center justify-start gap-7">
+              <div className="">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,11 +68,13 @@ const Contact = () => {
               </div>
               <div>
                 {" "}
-                <span className="mb-4 text-sm lg:text-2xl font-bold">okanozman88@gmail.com</span>
+                <span className="mb-4 text-sm font-bold lg:text-2xl">
+                  okanozman88@gmail.com
+                </span>
               </div>
             </li>
 
-            <li className="flex items-center justify-center ml-1 lg:ml-0 gap-7 ">
+            <li className="ml-1 flex items-center justify-center gap-7 lg:ml-0">
               <div>
                 {" "}
                 <svg
@@ -86,7 +92,9 @@ const Contact = () => {
               </div>
               <div>
                 {" "}
-                <span className="mb-4 text-sm lg:text-2xl font-bold">+90 5333381535</span>
+                <span className="mb-4 text-sm font-bold lg:text-2xl">
+                  +90 5333381535
+                </span>
               </div>
             </li>
           </ul>

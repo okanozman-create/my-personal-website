@@ -8,7 +8,7 @@ const Projects = () => {
     <section  >
       {/* <div className="container mx-auto"> */}
 
-      <h1 className="text-[45px] font-bold leading-[0.8] lg:text-[55px] m text-center mb-10 lg:mb-20">
+      <h1 className="text-[30px] font-bold leading-[0.8] lg:text-[55px] m text-center mb-10 lg:mb-20">
         My Projects
       </h1>
 
@@ -103,7 +103,7 @@ const Projects = () => {
         {/* aaaaaaaaaaaaaaaaaaa */}
 
         <div className="">
-          {/* ımages */}
+     
 
           <div
             className="group relative overflow-hidden border-2 border-white/50 rounded-xl  h-40 w-60   lg:h-60 lg:w-80"
