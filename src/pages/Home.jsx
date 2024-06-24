@@ -2,7 +2,7 @@ import Image from "../assets/example.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import resume from "../assets/okanozmancv-en.pdf";
+import resume from "../assets/currentCV.pdf";
 // import { useEffect } from "react";
 
 const Home = () => {

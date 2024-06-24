@@ -38,13 +38,13 @@ const About = () => {
               About me
             </h1>
             <span className="mb-6 font-secondary text-[20px] font-bold text-gray-950 lg:text-[35px]">
-              I'am a Freelance Web Developer.
+            I‘am a Freelance Web Developer.
             </span>
             <p className="mb-1 lg:mb-6 bg-orange-300 p-4 font-primary text-[8px] sm:text-[18px] md:leading-7">
               I have been continuing my software development journey that I
               started in 2022 at full speed. Over nearly two years, I have been
               developing projects and continuing to learn about React, React
-              libraries,tools and emviroments JavaScript, CSS, and HTML. Everyone finds those over 35
+              libraries and tools, JavaScript, CSS, and HTML. Everyone finds those over 35
               years old to be latecomers to a new sector. However, especially in
               the software sector, I find myself to be calm, mature, decisive,
               and solution-oriented in the face of problems. When it comes to

@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="container mx-auto py-6">
         <div className="">
        
-        <h1 className="mb-10  lg:mb-20 lg:mb-15  mt-2 lg:mt-5 text-center text-[30px]  font-bold leading-[0.8] lg:text-[55px]">
+        <h1 className="mb-5  lg:mb-20 lg:mb-15  mt-2 lg:mt-5 text-center text-[30px]  font-bold leading-[0.8] lg:text-[55px]">
             Contact details
           </h1>
 
