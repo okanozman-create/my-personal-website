@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section className="py-8 lg:py-12">
-      <div className="m-4 flex items-center justify-between p-4 text-2xl lg:text-6xl">
+      <div className="m-4 flex items-center  justify-evenly  lg:justify-between p-4 text-2xl lg:text-6xl">
         <a
           href="https://github.com/okanozman-create"
           target="_blank"
@@ -26,7 +26,7 @@ const Contact = () => {
           </h1>
 
           <ul className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:justify-around">
-            <li className="flex items-center justify-start gap-7">
+            <li className="flex items-center justify-start gap-7 mr-6 lg:mr-0">
               <div>
                 {" "}
                 <svg
@@ -50,7 +50,7 @@ const Contact = () => {
               </div>
             </li>
 
-            <li className="flex items-center justify-start gap-7">
+            <li className="flex items-center ml-14 lg:ml-0 justify-start gap-7">
               <div className="">
                 {" "}
                 <svg

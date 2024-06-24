@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section className="" id="about" ref={ref}>
       <div className="">
-        <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 m-5 p-5">
+        <div className="flex flex-col gap-y-2 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 m-5 px-2 lg:p-5">
           <div className="flex flex-1">
             <img
               className="hidden h-[50px] w-[150px] -translate-y-4 rounded-xl transition-all duration-500 lg:block lg:h-[350px] lg:w-[450px] lg:hover:scale-125 lg:hover:rounded-full"
