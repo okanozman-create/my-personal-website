@@ -11,8 +11,8 @@ const Navbar = () => {
     <>
       <nav className="w-full" >
         
-        <div className="p-4">
-        <ul className="flex flex-col items-center lg:flex-row  gap-y-1 lg:gap-x-8 text-yellow-900 lg:justify-center font-semibold  font-secondary text-sm lg:text-xl tracking-wider">
+        <div className="p-1  lg:p-4">
+        <ul className="flex flex-col items-center lg:flex-row  gap-y-1 lg:gap-x-8 text-orange-700 lg:justify-center font-semibold  font-secondary text-sm lg:text-xl tracking-wider">
           <li>
             <Link to="/" className="anmBorder">Home</Link>
           </li>

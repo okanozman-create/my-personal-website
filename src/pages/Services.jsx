@@ -43,7 +43,7 @@ function Services() {
             initial={{ x: "100%" }}
             animate={{ x: "-100%" }}
             transition={{ duration: 30, ease: "linear", repeat: Infinity }}
-            className="m-2 flex items-center justify-center gap-6 p-5 text-center lg:bg-orange-300"
+            className="m-2 flex items-center justify-center gap-6 p-5 text-center "
           >
             {skills.map((skill, index) => (
               <li key={index} className="">

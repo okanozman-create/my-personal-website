@@ -15,6 +15,7 @@ Hello! This is a responsive web portfolio created with React and Vite. On this p
 - **react-intersection-observer**
 - **framer-motion**
 - **react-countup**
+- **react-Link**
 - **react-type-animation**
 - **devicon**
 

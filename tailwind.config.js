@@ -8,7 +8,7 @@ export default {
     fontFamily: {
       primary: 'Open Sans',
       secondary: 'Montserrat',
-      tertiary: 'Merriweather',
+      tertiary: 'DM Sans',
       familyRob: 'Roboto',
     },
     container: {

@@ -12,7 +12,7 @@ import Projects from "./pages/Projects";
 
 const App = () => {
   return (
-    <div className="bg-gray-950 bg-backImg bg-cover bg-no-repeat bg-top overflow-hidden min-h-screen">
+    <div className=   " bg-sky-900 bg-cover bg-no-repeat bg-top overflow-hidden min-h-screen">
       <BrowserRouter>
         <Navbar />
         <Routes>

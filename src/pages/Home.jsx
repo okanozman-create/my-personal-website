@@ -24,8 +24,8 @@ const Home = () => {
   };
 
   return (
-    <section className="flex min-h-[85vh] items-center lg:min-h-[78vh]">
-      <div className="container mx-auto">
+    <section className="flex min-h-[85vh]  lg:items-center lg:min-h-[78vh]">
+      <div className="container mx-auto mt-10">
         <div className="flex flex-col items-center gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
           <div className="flex-1 text-center lg:text-left">
@@ -34,7 +34,7 @@ const Home = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-4 font-secondary text-[30px] lg:text-[55px] font-bold leading-[0.8]"
+              className="mb-2 lg:mb-4 font-secondary text-[30px] lg:text-[55px] font-bold leading-[0.8]"
             >
               OKAN <span>OZMAN</span>
             </motion.h1>
@@ -43,7 +43,7 @@ const Home = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 font-secondary text-[25px] font-semibold uppercase leading-[1] lg:text-[60px]"
+              className="mb-2 lg:mb-6 font-secondary text-[25px] font-semibold uppercase leading-[1] lg:text-[60px]"
             >
               <span className="mr-4 text-white">I am a </span>
 
@@ -60,13 +60,11 @@ const Home = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mx-auto mb-8 mt-4 max-w-lg bg-orange-300 p-4 font-primary text-[12px]  lg:leading-7 sm:text-[18px] lg:mx-0"
+              className="mx-auto mb-8 mt-4 max-w-lg  p-4 font-tertiary text-[12px] text-white lg:leading-7 sm:text-[18px] lg:mx-0"
             >
               Hello, my name is Okan. After years, I finally achieved my dream,
               and since 2022, I have been programming and writing code on my
-              own. I know I am still at the beginning of the road, and every day
-              I add something new to myself in terms of programming.On this
-              page, you can find information about me. Have a nice surf!
+              own.On this page, you can find information about me. Have a nice surf!
             </motion.p>
 
             <motion.div
@@ -90,10 +88,10 @@ const Home = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="lg:max-w[482px] hidden max-w-[320px] lg:block"
+            className="hidden max-w-[320px] lg:block"
           >
             <img
-              className="h-44 w-44 overflow-hidden rounded-lg md:h-96 md:w-96 md:rounded-full"
+              className="w-full  overflow-hidden rounded-lg   md:rounded-full"
               src={Image}
               alt="Okanphoto"
             />

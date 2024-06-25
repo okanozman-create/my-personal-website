@@ -22,7 +22,7 @@ const Contact = () => {
       <div className="container mx-auto py-6">
         <div className="">
           <h1 className="lg:mb-15 mb-10 mt-2 text-center text-[30px] font-bold leading-[0.8] lg:mb-20 lg:mt-5 lg:text-[55px]">
-            Contact details
+            Contact Details
           </h1>
 
           <ul className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:justify-around">
@@ -93,7 +93,7 @@ const Contact = () => {
               <div>
                 {" "}
                 <span className="mb-4 text-sm font-bold lg:text-2xl">
-                  +90 5333381535
+                  +90 533-338-15-35
                 </span>
               </div>
             </li>
