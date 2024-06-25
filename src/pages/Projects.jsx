@@ -1,4 +1,4 @@
-// import Img1 from "../assets/portfolio-img1.png";
+
 import ImgCont from "../assets/contactImg.jpg";
 import ImgWeath from "../assets/ImgWeather.jpg";
 import  ImgPort from  "../assets/imagePortf2.png"
