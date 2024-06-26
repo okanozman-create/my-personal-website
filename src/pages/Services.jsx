@@ -30,7 +30,7 @@ function Services() {
 
   return (
     <section className="flex h-screen flex-col items-center py-8 lg:py-12">
-      <h1 className="m mb-10 text-center text-[15px] font-extrabold leading-[0.8] lg:text-[35px] font-secondary  ">
+      <h1 className="mb-4 lg:mb-10 text-center text-[25px] font-extrabold leading-[0.8] lg:text-[35px] font-secondary  ">
       SKILLS
 
       </h1>

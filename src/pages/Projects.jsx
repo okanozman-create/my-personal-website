@@ -5,7 +5,7 @@ import ImgWeath from "../assets/ImgWeather.jpg";
 const Projects = () => {
   return (
     <section>
-      <h1 className="m mb-10 mt-0 lg:mt-10 text-center text-[30px] font-bold leading-[0.8] lg:mb-20 lg:text-[55px]">
+      <h1 className="m mb-10 mt-4 p-3 lg:mt-10 text-center text-[25px] font-bold leading-[0.8] lg:mb-20 lg:text-[55px]">
         My Projects
       </h1>
 
@@ -89,3 +89,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
