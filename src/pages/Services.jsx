@@ -30,8 +30,8 @@ function Services() {
 
   return (
     <section className="flex h-screen flex-col items-center py-8 lg:py-12">
-      <h1 className="m mb-10 text-center bg-gradient-to-r from-orange-500 text-[15px] font-extrabold leading-[0.8] lg:text-[20px] font-secondary  ">
-      01010011 01001011 01001001 01001100 01001100 01010011
+      <h1 className="m mb-10 text-center text-[15px] font-extrabold leading-[0.8] lg:text-[35px] font-secondary  ">
+      SKILLS
 
       </h1>
       <div className="w-60">
@@ -91,7 +91,7 @@ function Services() {
           </div>
         ) : (
           <div className="mt-10 lg:block">
-            <h1 className="m mb-10 text-center text-[45px] font-bold leading-[0.8] lg:text-[55px] font-secondary">
+            <h1 className="m mb-10 text-center text-[40px] font-bold leading-[0.8] lg:text-[50px] font-secondary">
               Services I Provide
             </h1>
             <ul className="flex justify-center gap-8">

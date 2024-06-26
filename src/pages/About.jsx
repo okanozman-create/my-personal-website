@@ -92,7 +92,7 @@ const About = () => {
 
 
   return (
-    <section className="p-5 m-3 max-w-ful"  id="about" ref={ref}>
+    <section className="p-2 lg:p-5 m-3 max-w-ful"  id="about" ref={ref}>
       
         <div className="container mx-auto">
           
