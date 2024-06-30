@@ -28,15 +28,14 @@ const About = () => {
             I have been continuing my software development journey that I
             started in 2022 at full speed. Over nearly two years, I have been
             developing projects and continuing to learn about React, React
-            libraries and tools, JavaScript, CSS, and HTML. Everyone finds those
-            over 35 years old to be latecomers to a new sector. However,
-            especially in the software sector, I find myself to be calm, mature,
-            decisive, and solution-oriented in the face of problems. When it
-            comes to software, I am genuinely eager, determined, and ambitious.
-            With this belief, I want to take a more active role in this sector
-            as a Junior Web Developer.
+            libraries and tools, JavaScript, CSS, and HTML. In the software
+            sector, I find myself to be calm, mature, decisive, and
+            solution-oriented in the face of problems. I am genuinely eager,
+            determined, and ambitious when it comes to software. With this
+            belief, I want to take a more active role in this sector as a Junior
+            Web Developer.
           </p>
-         
+
           <div className="mb-12 flex items-center gap-4">
             <div className="text-gradient mb-2 font-tertiary text-[35px] font-bold lg:text-[50px]">
               {inView ? <CountUp start={0} end={2} duration={5} /> : null}

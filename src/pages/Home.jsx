@@ -42,9 +42,9 @@ const Home = () => {
               <span className="mr-4 text-white">I am a </span>
 
               <TypeAnimation
-                sequence={["Jr", 2000, "Web", 2000, "Developer", 2000]}
+                sequence={["Self-taught", 2000, "Programmer", 2000]}
                 speed={15}
-                className="text-orange-700"
+                className="text-zinc-800"
                 wrapper="span"
                 repeat={0}
               />

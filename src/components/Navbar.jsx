@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <nav className="w-screen">
         <div className="p-2">
-          <ul className="flex items-center justify-center gap-3 font-secondary text-xs font-bold text-orange-700 md:justify-evenly md:text-xl">
+          <ul className="flex items-center justify-center gap-3 font-secondary text-xs font-bold text-white md:justify-evenly md:text-xl">
             <li>
               <Link to="/" className="anmBorder">
                 Home
