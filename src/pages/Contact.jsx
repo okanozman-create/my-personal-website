@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Contact = () => {
   return (
     <section className="py-8 lg:py-12">
-      <div className="m-4 flex items-center justify-evenly p-4 text-2xl lg:justify-between lg:text-6xl">
+      <div className="m-4 flex items-center justify-evenly p-4 text-2xl lg:justify-evenly lg:text-6xl">
         <a
           href="https://github.com/okanozman-create"
           target="_blank"

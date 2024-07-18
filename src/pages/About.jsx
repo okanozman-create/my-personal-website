@@ -28,7 +28,7 @@ const About = () => {
             I have been continuing my software development journey that I
             started in 2022 at full speed. Over nearly two years, I have been
             developing projects and continuing to learn about React, React
-            libraries and tools, JavaScript, CSS, and HTML. In the software
+            libraries and tools, JavaScript, CSS, HTML for backend NodeJS, Express and MongoDB  In the software
             sector, I find myself to be calm, mature, decisive, and
             solution-oriented in the face of problems. I am genuinely eager,
             determined, and ambitious when it comes to software. With this
