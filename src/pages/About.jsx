@@ -22,7 +22,7 @@ const About = () => {
             About me
           </h1>
           <p className="mb-3 font-secondary text-[20px] font-bold text-gray-950 lg:mb-7 lg:text-[35px]">
-            I'am a Freelance Web Developer.
+          I&rsquo;m a Self-taught Programmer.
           </p>
           <p className="mb-1 p-2 font-tertiary text-[12px] text-white sm:text-[20px] md:leading-7 lg:mb-6">
             I have been continuing my software development journey that I
